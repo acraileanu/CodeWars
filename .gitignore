@@ -1,0 +1,9 @@
+CodeWars/obj/
+CodeWars/bin/
+CodeWars.Tests/obj/
+CodeWars.Tests/bin/
+*.suo
+*.user
+packages/
+_ReSharper.*
+.vs/
