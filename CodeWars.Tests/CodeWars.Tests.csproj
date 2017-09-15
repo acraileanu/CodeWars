@@ -54,6 +54,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="InertialArray\InertialArrayTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TheStringCombat\Helpers.cs" />
     <Compile Include="TheStringCombat\OutputConverterTests.cs" />
