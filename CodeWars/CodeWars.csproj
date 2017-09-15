@@ -43,7 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InertialArray\Helpers\IntegerExtensions.cs" />
     <Compile Include="InertialArray\InertialTester.cs" />
+    <Compile Include="InertialArray\Validators\Abstract\IGenericEnumerationValidator.cs" />
+    <Compile Include="InertialArray\Validators\Abstract\IIntegerEnumerationValidator.cs" />
+    <Compile Include="InertialArray\Validators\EveryOddInIntegerEnumerationIsGreaterThanEveryEvenExceptMaximum.cs" />
+    <Compile Include="InertialArray\Validators\IntegerEnumerationContainsAtLeastOneOddValueValidator.cs" />
+    <Compile Include="InertialArray\Validators\MaximumValueOfIntegerEnumerationIsEven.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TheStringCombat\DuelDecider.cs" />
